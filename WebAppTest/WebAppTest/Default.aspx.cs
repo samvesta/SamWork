@@ -11,7 +11,10 @@ namespace WebAppTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(!this.IsPostBack)
+            {
+                Response.Write("Hello World!!");
+            }
         }
 
         protected void btnShow_Click(object sender, EventArgs e)
