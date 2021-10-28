@@ -1,1 +1,1 @@
-select * from ProductLines
+select * from ProductMaster
