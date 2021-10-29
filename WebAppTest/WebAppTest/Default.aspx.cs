@@ -20,6 +20,7 @@ namespace WebAppTest
         protected void btnShow_Click(object sender, EventArgs e)
         {
             Response.Write("Koos");
+            Response.Write("Jan");
         }
     }
 }
