@@ -13,7 +13,9 @@ namespace WebAppTest
         {
             if(!this.IsPostBack)
             {
+
                 Response.Write("Hello World From Master");
+
             }
         }
 
