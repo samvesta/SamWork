@@ -15,13 +15,16 @@ namespace WebAppTest
             {
 
                 Response.Write("Hello World From Master");
-
+               
             }
         }
 
         protected void btnShow_Click(object sender, EventArgs e)
         {
-            Response.Write("Jan");
+            //string url = "MyPopup.aspx";
+            //string s = "window.open('" + url + "', 'popup_window', 'width=300,height=100,left=100,top=100,resizable=yes');";
+            //ClientScript.RegisterStartupScript(this.GetType(), "script", s, true);
+            Response.Write("Script does not work");
         }
     }
 }
