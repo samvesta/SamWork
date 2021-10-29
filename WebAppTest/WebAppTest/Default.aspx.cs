@@ -13,13 +13,12 @@ namespace WebAppTest
         {
             if(!this.IsPostBack)
             {
-                Response.Write("Hello World From DEV!!");
+                Response.Write("Hello World From Master");
             }
         }
 
         protected void btnShow_Click(object sender, EventArgs e)
         {
-            Response.Write("Koos");
             Response.Write("Jan");
         }
     }
