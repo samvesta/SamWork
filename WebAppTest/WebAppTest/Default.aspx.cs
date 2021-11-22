@@ -14,7 +14,7 @@ namespace WebAppTest
             if(!this.IsPostBack)
             {
 
-                Response.Write("Click Button to get response!!!");
+                Response.Write("Click Button to get response NOW!!!");
                
             }
         }
