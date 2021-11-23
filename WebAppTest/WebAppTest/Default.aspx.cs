@@ -15,7 +15,7 @@ namespace WebAppTest
             {
 
 
-                Response.Write("LOCAL from 146!!");
+                Response.Write("SAMGCOM SAMWORK SamDev from 146!!");
                
             }
         }
